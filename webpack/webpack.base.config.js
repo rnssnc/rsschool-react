@@ -51,8 +51,8 @@ module.exports = {
   resolve: {
     alias: {
       '@': PATHS.src,
-      extensions: ['.tsx', '.ts', '.js'],
     },
+    extensions: ['.tsx', '.ts', '.js'],
   },
   plugins: [
     new CleanWebpackPlugin(),
